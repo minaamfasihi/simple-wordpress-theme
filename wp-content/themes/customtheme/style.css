@@ -10,3 +10,13 @@
   Tags: black
   Text Domain: customtheme
 */
+
+.jumbotron {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+50,4836ed+74,1e69de+88 */
+  background: #6db3f2; /* Old browsers */
+  background: -moz-linear-gradient(left, #6db3f2 0%, #54a3ee 50%, #4836ed 74%, #1e69de 88%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #6db3f2 0%,#54a3ee 50%,#4836ed 74%,#1e69de 88%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #6db3f2 0%,#54a3ee 50%,#4836ed 74%,#1e69de 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 ); /* IE6-9 */
+  color: white;
+}
