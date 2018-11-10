@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+  <head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title><?php bloginfo('name'); ?></title>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <?php wp_head(); ?> 
+    <!-- if your theme uses additional stylesheets etc, then this line will contain those -->
+  </head>
+  <body>
+
+  </body>
+</html>
